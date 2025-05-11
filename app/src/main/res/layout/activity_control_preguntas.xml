@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/materiaInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Materia" />
+
+    <EditText
+        android:id="@+id/preguntaInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pregunta" />
+
+    <EditText
+        android:id="@+id/nivelDificultadInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nivel de Dificultad" />
+
+    <EditText
+        android:id="@+id/respuestaInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Respuesta" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Pregunta" />
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Preguntas" />
+</LinearLayout>
