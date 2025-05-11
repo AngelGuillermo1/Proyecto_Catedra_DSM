@@ -18,7 +18,6 @@ class Control_Preguntas : AppCompatActivity() {
 
         val materiaInput = findViewById<EditText>(R.id.materiaInput)
         val preguntaInput = findViewById<EditText>(R.id.preguntaInput)
-        val nivelDificultadInput = findViewById<EditText>(R.id.nivelDificultadInput)
         val respuestaInput = findViewById<EditText>(R.id.respuestaInput)
         val saveButton = findViewById<Button>(R.id.saveButton)
         val showButton = findViewById<Button>(R.id.showButton)
@@ -26,15 +25,14 @@ class Control_Preguntas : AppCompatActivity() {
         saveButton.setOnClickListener {
             val materia = materiaInput.text.toString()
             val pregunta = preguntaInput.text.toString()
-            val nivelDificultad = nivelDificultadInput.text.toString()
             val respuesta = respuestaInput.text.toString()
 
-            if (materia.isNotEmpty() && pregunta.isNotEmpty() && nivelDificultad.isNotEmpty() && respuesta.isNotEmpty()) {
-                val rowsUpdated = dbHelper.updatePregunta(materia, pregunta, nivelDificultad, respuesta)
+            if (materia.isNotEmpty() && pregunta.isNotEmpty() && respuesta.isNotEmpty()) {
+                val rowsUpdated = dbHelper.updatePregunta(materia, pregunta, respuesta)
                 if (rowsUpdated > 0) {
                     Toast.makeText(this, "Pregunta actualizada correctamente", Toast.LENGTH_SHORT).show()
                 } else {
-                    val id = dbHelper.insertPregunta(materia, pregunta, nivelDificultad, respuesta)
+                    val id = dbHelper.insertPregunta(materia, pregunta, respuesta)
                     if (id != -1L) {
                         Toast.makeText(this, "Pregunta guardada con ID: $id", Toast.LENGTH_SHORT).show()
                     } else {

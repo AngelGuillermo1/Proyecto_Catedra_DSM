@@ -18,13 +18,19 @@
         android:hint="Pregunta" />
 
     <EditText
-        android:id="@+id/nivelDificultadInput"
+        android:id="@+id/respuestaInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nivel de Dificultad" />
+        android:hint="Respuesta" />
 
     <EditText
-        android:id="@+id/respuestaInput"
+        android:id="@+id/respuestaInput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Respuesta" />
+
+    <EditText
+        android:id="@+id/respuestaInput3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Respuesta" />
