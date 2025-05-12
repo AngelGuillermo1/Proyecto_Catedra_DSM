@@ -1,3 +1,70 @@
+<!-- File: app/src/main/res/values/strings.xml -->
 <resources>
-    <string name="app_name">Proyecto_Catedra_DSM</string>
+    <string name="app_name">Proyecto Evaluaciones</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="error_fill_fields">Complete todos los campos</string>
+    <string name="error_invalid_credentials">Credenciales inválidas</string>
+    <string name="msg_registered">Usuario registrado</string>
+    <string name="error_register">Error al registrar</string>
+    <string name="btn_save">Guardar</string>
+    <string name="msg_created">Creado exitosamente</string>
+    <string name="msg_updated">Actualizado exitosamente</string>
+    <string name="lbl_titulo">Título:</string>
+    <string name="hint_titulo">Ingrese el título</string>
+    <string name="lbl_descripcion">Descripción:</string>
+    <string name="hint_descripcion">Ingrese descripción</string>
+    <string name="btn_add_question">Agregar Pregunta</string>
+    <string name="lbl_question">Pregunta:</string>
+    <string name="hint_question">Escriba la pregunta</string>
+    <string name="lbl_options">Opciones (marque la correcta):</string>
+    <string name="hint_option">Texto de opción</string>
+    <string name="error_select_correct">Seleccione la respuesta correcta</string>
+    <string name="msg_saved">Guardado exitosamente</string>
+    <string name="btn_submit_quiz">Enviar respuestas</string>
+    <string name="msg_score">Obtuvo %1$d de %2$d aciertos.</string>
+    <string name="btn_new_materia">Nueva materia</string>
+    <string name="hint_name">Nombre completo</string>
+    <!-- File: res/values/strings.xml -->
+    <!-- Para mostrar “Pregunta: TextoDePregunta” -->
+    <string name="lbl_question_placeholder">Pregunta: %1$s</string>
+
+    <!-- Para mostrar “Tu respuesta: Texto — Correcta/Incorrecta” -->
+    <string name="lbl_answer_placeholder">Tu respuesta: %1$s — %2$s</string>
+
+    <string name="lbl_your_answer">Tu respuesta:</string>
+    <string name="btn_next">Siguiente</string>
+
+    <string name="correct">Correcta</string>
+    <string name="incorrect">Incorrecta</string>
+    <string name="lbl_your_answer_and_result">Tu respuesta: %1$s — %2$s</string>
+    <string name="btn_quiz">Realizar quiz</string>
+    <string name="btn_edit">Editar</string>
+    <string name="error_select_option">Por favor selecciona una opción</string>
+    <string name="btn_manage_questions">Gestionar preguntas</string>
+    <string name="btn_manage_answers">Gestionar respuestas</string>
+    <string name="btn_delete">Eliminar materia</string>
+    <string name="lbl_answer_text">Respuesta:</string>
+    <string name="hint_answer">Escribe la respuesta</string>
+    <string name="label_correct">Es correcta</string>
+    <string name="btn_add_answer">Añadir respuesta</string>
+    <string name="btn_edit_question">Editar pregunta</string>
+    <string name="btn_delete_question">Eliminar pregunta</string>
+    <string name="register_title">Registro</string>
+    <string name="materia_detail_title">Materia</string>
+    <string name="results_title">Resultados</string>
+    <string name="your_score">Puntuación</string>
+    <string name="answers_review">Revisión de respuestas</string>
+    <string name="quiz_progress">Progreso</string>
+
+    <string name="lbl_create_question">Crear pregunta</string>
+    <string name="quiz_progress_format">Pregunta %1$d de %2$d</string>
+    <string name="btn_finish">Terminar</string>
+    <string name="lbl_answer_detail">Respuesta</string>
+
+
+
+
 </resources>
